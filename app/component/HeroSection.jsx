@@ -3,7 +3,8 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <div className="container mx-auto pt-13.5 relative">
+    <div className=" relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:bg-linear-to-r after:from-[#E03609] after:to-[#F0B71F]">
+      <div className="container mx-auto pt-13.5 relative border-x-2 border-amber-600">
       <div className="h-[1000px]">
         <div className="hero-bg flex px-13 ">
           <div className="mt-90 w-67.5">
@@ -76,6 +77,7 @@ export default function HeroSection() {
           <h4 className="font-medium text-[28px]">Years of Experiences</h4>
         </div>
       </div>
+    </div>
     </div>
   );
 }

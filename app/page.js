@@ -1,11 +1,13 @@
 import Image from "next/image";
 import HeroSection from "./component/HeroSection";
+import NightMares from "./component/NightMares";
 
 export default function Home() {
   return (
     <main>
-      <div className="container mx-auto  border-x-2 border-amber-600">
+      <div>
         <HeroSection />
+        <NightMares />
       </div>
     </main>
   );
