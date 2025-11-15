@@ -31,5 +31,12 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
 
+.greetings-bgImg{
+  height: 776px;
+  background-image: url("../public/GreetingsBg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const NightMares = () => {
   return (
-    <div>
+    <div className="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:bg-linear-to-r after:from-[#E03609] after:to-[#F0B71F]">
       <div className="container mx-auto flex gap-9 px-10 pt-19.5 border-x-2 border-amber-600">
         <div className="w-[50%] pt-14">
           <h1 className="font-bold text-[56px] leading-16">
@@ -52,7 +52,7 @@ const NightMares = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto flex gap-9 px-10 pt-10.5 border-x-2 border-amber-600">
+      <div className="container mx-auto flex gap-9 px-10 pt-10.5 border-x-2 border-amber-600 pb-28">
         <div className="w-[50%]">
           <Image
             src="/NightMaresImg2.png"
