@@ -15,8 +15,8 @@ const Greetings = () => {
                 Our website is your gateway to a universe of neon lights, gritty streets, and cybernetic enhancements. Explore the high-tech, low-life world where the lines between humanity and machinery blur.
             </p>
         </div>
-        <div className='w-[40%] backdrop-blur-xl'>
-          <div className='w-[431px] h-[465px] border-2 border-[#F0B71F] rounded-[20px] py-[58px] px-[62px] flex flex-col gap-6.5 items-start justify-between'>
+        <div className='w-[40%] '>
+          <div className='w-[431px] h-[465px] border-2 border-[#F0B71F] rounded-[20px] py-[58px] px-[62px] flex flex-col gap-6.5 items-start justify-between backdrop-blur-xl'>
             <div className='flex items-start '>
               <div className='flex gap-4.5 items-start'>
                 <BiSolidRectangle className='text-[#F0B71F] text-2xl'/>
