@@ -4,6 +4,7 @@ import NightMares from "./component/NightMares";
 import Greetings from "./component/Greetings";
 import NeonSectorOverview from "./component/NeonSectorOverview";
 import YourProtal from "./component/YourProtal";
+import Faq from "./component/Faq";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Greetings />
         <NeonSectorOverview />
         <YourProtal />
+        <Faq />
       </div>
     </main>
   );
