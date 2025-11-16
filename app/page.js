@@ -5,17 +5,19 @@ import Greetings from "./component/Greetings";
 import NeonSectorOverview from "./component/NeonSectorOverview";
 import YourProtal from "./component/YourProtal";
 import Faq from "./component/Faq";
+import Footer from "./component/Footer";
 
 export default function Home() {
   return (
     <main>
-      <div>
+      <div className="bg-black text-white">
         <HeroSection />
         <NightMares />
         <Greetings />
         <NeonSectorOverview />
         <YourProtal />
         <Faq />
+        <Footer />
       </div>
     </main>
   );

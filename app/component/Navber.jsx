@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Navber() {
   return (
-    <nav className="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:bg-linear-to-r after:from-[#F0B71F] after:to-[#E03609]">
+    <nav className="relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:bg-linear-to-r after:from-[#F0B71F] after:to-[#E03609] bg-black text-white">
       <div className="container mx-auto flex items-center justify-around border-x-2 border-r-[#F0B71F] border-l-[#E03609] py-[45px]">
         <div>
           <Image src="/Logo.png" width={100} height={100} alt="Logo Image" />
